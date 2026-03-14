@@ -1,0 +1,14 @@
+# AutoDL 环境：PyTorch 2.7.0 / Python 3.12 / CUDA 12.8
+# AutoDL 镜像里 PyTorch 已预装，不需要再装，直接跳过 torch 这行
+# 如果你用的是空白镜像，取消下面这行的注释：
+# torch==2.7.0  # 在 AutoDL 控制台选 CUDA 12.8 镜像，PyTorch 会自动匹配
+ 
+transformers==4.51.3
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+openpyxl>=3.1.0
+tqdm>=4.66.0
+flask==3.0.3
+flask-cors>=4.0.0
+accelerate>=0.30.0
